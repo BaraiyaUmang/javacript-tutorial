@@ -8,3 +8,4 @@ let ages;
 
 console.table([pie,age,string,gender,city,ages])
 
+
