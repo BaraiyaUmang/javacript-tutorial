@@ -41,3 +41,7 @@ console.log("c",myArray);                //******2   differemce between slice an
 
 
 // there for we can say that splice can change the original array and slice can not change the original array
+
+
+
+
