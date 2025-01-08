@@ -5,7 +5,7 @@ const score=1000;
 const bonus=new Number(200);
 // console.log(bonus); // [Number: 200]
 
-// console.log(bonus.toString().length);
+// console.log(bonus.toString().length);   //3
 // console.log(bonus.toFixed(3)); // 200.000
 
 const otherNumber=34.967894567;
@@ -52,7 +52,10 @@ const max = 20;
 console.log(Math.floor(Math.random() * (max - min +1)) +min ) ;   // returns a random number between 10 and 20 
 
 
+const min1 =25
+const max1 = 30;
 
+console.log(Math.floor(Math.random()*(max1-min1+1))+min1); // returns a random number between 25 and 30
 
 
 
