@@ -59,3 +59,38 @@ console.log(Object.entries(tinderUser)); // gives key value pair of object
 
 
 console.log(tinderUser.hasOwnProperty('id')); // checks if object has property or not
+
+
+
+const course={
+
+        coursename: "JS",
+        price: 1000,
+        courseinstructor: "umang patel",
+
+}
+
+//course.instructor
+
+const {courseinstructor:instructor}=course
+console.log(instructor); // gives value of instructor
+
+
+//example of api   api returns data in json format it is basically object
+
+// {
+//     "name":"umang",
+//     "age": 24,
+//     "location": "india"
+
+// }
+
+
+//sometimes apis send data in array of objects
+
+[
+    {},
+    {},
+    {},
+    {}
+]
