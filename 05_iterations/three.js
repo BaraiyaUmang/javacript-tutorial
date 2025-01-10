@@ -35,5 +35,20 @@ for (const [key, value] of map) {
     
 }
 
+// const myobj={
+//     "game1":"nfs",                  // this will show error
+//     "game2":"spiderman"
+// }
+
+// for (const key of myobj) {          //we cant iterate object with for of loop unlike map
+//     console.log(key)
+// }
+
+
+
+
+//maps are not iterable so for in loop wont work on maps
+
+
 
 
